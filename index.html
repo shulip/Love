@@ -20,20 +20,28 @@
 		<div id="content">
 			<div id="code">
 				<span class="comments">/**</span><br />
-				<span class="space"/><span class="comments">* We are both Fudan SSers and programmers,</span><br />
-				<span class="space"/><span class="comments">* so I write some code to celebrate our 1st anniversary.</span><br />
+				<span class="space"/><span class="comments">* We are both Fighters for Future,</span><br />
+				<span class="space"/><span class="comments">* so I write some code to celebrate Qixi Festival.</span><br />
 				<span class="space"/><span class="comments">*/</span><br />
-				Boy i = <span class="keyword">new</span> Boy(<span class="string">"hackerzhou"</span>);<br />
-				Girl u = <span class="keyword">new</span> Girl(<span class="string">"MaryNee"</span>);<br />
-				<span class="comments">// Nov 2, 2010, I told you I love you. </span><br />
+				Fighter i = <span class="keyword">new</span> Fighter(<span class="string">"WangZiXian"</span>);<br />
+				Fighter u = <span class="keyword">new</span> Fighter(<span class="string">"MiaoXun"</span>);<br />
+				<span class="comments">// July 2, 2020, I meet you. </span><br />
+				i.meet(u);<br />
+				<span class="comments">// July 11, 2020, I told you I love you. </span><br />
 				i.love(u);<br />
-				<span class="comments">// Luckily, you accepted and became my girlfriend eversince.</span><br />
+				<span class="comments">// Luckily, you accepted and became my boyfriend eversince.</span><br />
 				u.accepted();<br />
 				<span class="comments">// Since then, I miss u every day.</span><br />
 				i.miss(u);<br />
 				<span class="comments">// And take care of u and our love.</span><br />
 				i.takeCareOf(u);<br />
-				<span class="comments">// You say that you won't be so easy to marry me.</span><br />
+				<span class="comments">// I want you to know, how happy I can with you.</span><br />
+				i.liveHappilyWith(u);<br />
+				<span class="comments">// I want to take your hand tightly.</span><br />
+				Forever.link(i.hand,u.hand);<br />
+				<span class="comments">// I want to get your heart.</span><br />
+				Forever.link(i.heart,u.heart);<br />
+<!-- 				<span class="comments">// You say that you won't be so easy to marry me.</span><br />
 				<span class="comments">// So I keep waiting and I have confidence that you will.</span><br />
 				<span class="keyword">boolean</span> isHesitate = <span class="keyword">true</span>;<br />
 				<span class="keyword">while</span> (isHesitate) {<br />
@@ -44,7 +52,7 @@
 				}<br />
 				<span class="comments">// After a romantic wedding, we will live happily ever after.</span><br />
 				i.marry(u);<br />
-				i.liveHappilyWith(u);<br />
+				i.liveHappilyWith(u);<br /> -->
 			</div>
 			<div id="loveHeart">
 				<canvas id="garden"></canvas>
@@ -54,7 +62,7 @@
 						<div id="elapseClock"></div>
 					</div>
 					<div id="loveu">
-						I wish I know how to quit you.<br/>
+						I wish I know<br/> how to quit you.<br/>
 						<div class="signature">- Xian</div>
 					</div>
 				</div>
@@ -63,15 +71,15 @@
 		<div id="copyright">
 			Inspired by <a href="http://www.openrise.com/lab/FlowerPower/">FlowerPower</a> project.<br />
 			Copyright © 2011 <a href='http://hackerzhou.me'>hackerzhou.me</a> 2009-2011<br />
-			Copyleft © 2020 <a href='http://hackerzhou.me'>ShuLi</a> 2009-2011
+			Copyleft © 2020 <a href='http://hackerzhou.me'>ShuLi</a>
 		</div>
 	</div>
 	<script type="text/javascript">
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
 		var together = new Date();
-		together.setFullYear(2020, 7, 15);
-		together.setHours(23);
+		together.setFullYear(2020, 6, 11);
+		together.setHours(22);
 		together.setMinutes(0);
 		together.setSeconds(0);
 		together.setMilliseconds(0);
